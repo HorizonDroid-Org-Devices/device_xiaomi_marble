@@ -715,4 +715,4 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 #Basic Call Recorder
-$(call inherit-product, vendor/bcr/bcr.mk)
+#$(call inherit-product, vendor/bcr/bcr.mk)
