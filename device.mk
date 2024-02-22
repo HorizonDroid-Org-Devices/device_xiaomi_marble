@@ -698,7 +698,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Viper
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+#$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # VNDK
 PRODUCT_COPY_FILES += \
