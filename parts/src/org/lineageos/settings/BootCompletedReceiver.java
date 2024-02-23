@@ -25,7 +25,6 @@ import org.lineageos.settings.doze.AodBrightnessService;
 import org.lineageos.settings.doze.DozeUtils;
 import org.lineageos.settings.doze.PocketService;
 import org.lineageos.settings.gestures.GestureUtils;
-import org.lineageos.settings.refreshrate.RefreshUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.touch.HighTouchPollingService;
 import org.lineageos.settings.touch.TouchOrientationService;
@@ -68,7 +67,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             Log.d(TAG, "Dirac is not present in system");
         }
         DozeUtils.checkDozeService(context);
-        RefreshUtils.initialize(context);
+        // RefreshUtils.initialize(context);
         ThermalUtils.startService(context);
 
         // Gesture: Double tap FPS
